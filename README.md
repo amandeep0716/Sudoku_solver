@@ -1,28 +1,22 @@
-# sudoku-solver
+# 🧩 Sudoku Solver in Python
 
-Solves given sudoku puzzle using back tracking algorithm
+A Python-based Sudoku Solver that uses the **backtracking algorithm** to solve any 9x9 Sudoku puzzle. It takes a partially filled grid and fills it with a valid solution according to Sudoku rules.
 
-<p align="center">
-  <kbd>
-    <img alt="demo" height="500px" src="assets/demo.gif"/>
-   </kbd>
-</p>
+## 📌 Features
 
-## Requirements
+- ✔️ Solves any valid 9x9 Sudoku board
+- 🔄 Uses recursive backtracking
+- 📦 Simple and clean Python code
+- 🧪 Easy to test and modify
 
-- python v3.5+
-  - pygame v2.1.0+
+## 🛠️ Technologies Used
 
-## Usage
+- Python 3.x
+- No external libraries required
 
-To launch the application
-```bash
-python3 sudoku.py
-```
+## 🎮 How It Works
 
-## Controls
+The solver scans the grid for empty cells and fills them with a valid number (1–9) by checking row, column, and box constraints. If a number leads to a dead-end, the algorithm backtracks and tries the next number.
 
-- To alter or add a number in a box, left-click it so it becomes highlighted, then press the number you wish to input on your keyboard.
-- To remove the number, press the backspace or 0 number key on your keyboard.
-- To solve the sudoku, click the "solve" button and to clear all the numbers, click the "reset" button.
+## 📂 File Structure
 
